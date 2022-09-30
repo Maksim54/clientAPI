@@ -36,7 +36,7 @@
 				</p>
 
 				{#if error}
-					{error}
+				<divc class="alert alert-danger" role="alert">{error}<div/>
 				{/if}
 
 				<form on:submit|preventDefault={submit}>
